@@ -1,0 +1,79 @@
+
+
+.kemicofa-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: stretch;
+}
+
+.kemicofa-row > * {
+    flex-basis: 23rem;
+    flex-shrink: 0;
+}
+
+.kemicofa-row .card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.kemicofa-row .card > .card-content {
+    flex-grow: 1;
+}
+
+.kemicofa-row .card > .card-image {
+    flex-basis: 25rem;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    background-color: rgb(108, 101, 177);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+h1{
+    box-shadow: 0 0 5px rgb(20, 102, 0);
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    display: block;
+    text-transform: capitalize;
+    font-family: monospace;
+}
+
+
+.vdobk{
+position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+#kmb{
+    display: flexbox;
+    box-sizing: border-box;
+    justify-content: right;
+    align-items: flex-end;
+    margin-left: 1800px;
+    
+}
+.nav-wrapper{
+    background-color: cornflowerblue;
+
+}
+#brand-logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    
+
+}
